@@ -12,3 +12,10 @@ function appendOperator(operator) {
     currentInput += operator;
     display.value = currentInput;
 }
+
+
+function clearDisplay() {
+    currentInput = "";
+    display.value = "";
+}
+
