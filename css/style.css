@@ -1,6 +1,6 @@
 .calculator{
     width: 200px;
-    margin: 100px;
+    margin: 100px auto;
     border: 2px solid #000;
     padding: 20px;
     border-radius: 10px;
@@ -11,4 +11,12 @@
     height: 40px;
     text-align: right;
     font-size: 18px;
+}
+
+.calculator button{
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    margin: 5px;
+    cursor: pointer;
 }
