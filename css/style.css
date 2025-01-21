@@ -20,3 +20,8 @@
     margin: 5px;
     cursor: pointer;
 }
+
+.calculator .button-row{
+    display: flex;
+    justify-content: space-between;
+}
