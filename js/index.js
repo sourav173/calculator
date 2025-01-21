@@ -7,3 +7,8 @@ function appendNumber(number) {
     display.value = currentInput;
 }
 
+
+function appendOperator(operator) {
+    currentInput += operator;
+    display.value = currentInput;
+}
