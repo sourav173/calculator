@@ -19,3 +19,12 @@ function clearDisplay() {
     display.value = "";
 }
 
+function calculate() {
+    try{
+        currentInput = eval(currentInput).toString();
+        display.value = currentInput;
+    } catch(error) {
+        display.value = "Error";
+        currentInput = "";
+    }
+}
